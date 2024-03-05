@@ -1,6 +1,6 @@
 # First project for Simple counter button through React
 
-This project contains a Simple counter application 
+This project contains a Simple Counter Application 
 
 It has the following features -
 
