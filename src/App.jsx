@@ -9,9 +9,17 @@ function App() {
   {
     setCount(count + 1);
   }
+
+  function reduce()
+  {
+    if(count=== 0) return;
+    setCount(count - 1);
+  }
+
+
   return (
     <>
-      <h1 onClick={add} style={{cursor:'pointer'}}>Counter {count}</h1>
+      <h1>Counter <span onClick={add} style={{textDecoration: "underline", cursor: "pointer"}}>increase</span> or <span onClick={reduce} style={{textDecoration: "underline", cursor: "pointer"}}>decrease</span> {count}</h1>
     </>
   )
 }
